@@ -9,9 +9,9 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <nav className='nav'>
+    <nav>
       <Navbar bg="dark" variant="dark">
-        <Container>
+        <Container fluid>
           <Navbar.Brand href="#home">Navbar</Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link href="#portfolio">Portfolio</Nav.Link>
