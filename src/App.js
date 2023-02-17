@@ -1,16 +1,11 @@
 import './App.css';
-import Form from './components/form';
 import React from 'react';
 
 function App() {
   return (
     <div className="portfolio">
-      {/* <Project /> */}
-      <Form />
+      <h1>Content</h1>
     </div>
-    // <div className='form'>
-    //   < form />
-    // </div>
   );
 }
 
