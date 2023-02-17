@@ -9,7 +9,7 @@ const Header = () => {
         {/* Use Link component to create a link that returns to the homepage on click */}
         <Link className="text-dark" to="/">
           <h1 className="m-0" style={{ fontSize: '3rem' }}>
-            Tech Friends
+            Home
           </h1>
         </Link>
         <p className="m-0" style={{ fontSize: '1.75rem', fontWeight: '700' }}>
