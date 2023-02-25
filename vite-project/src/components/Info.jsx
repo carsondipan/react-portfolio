@@ -13,7 +13,7 @@ function Info() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src=""
+          src="C:\Users\Carson\Bootcamp\challenges\react-portfolio\vite-project\src\assets\Portfolio photos\IMG_2117.JPG"
           alt="Image"
         />
         <Carousel.Caption>
@@ -24,7 +24,7 @@ function Info() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src=""
+          src="C:\Users\Carson\Bootcamp\challenges\react-portfolio\vite-project\src\assets\Portfolio photos\IMG_2117.JPG"
           alt="IMage"
         />
 
@@ -36,7 +36,7 @@ function Info() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="C:\Users\Carson\Bootcamp\challenges\react-portfolio\vite-project\src\assets\DSC_0115_Trim.mp4"
+          src="C:\Users\Carson\Bootcamp\challenges\react-portfolio\vite-project\src\assets\Portfolio photos\IMG_2117.JPG"
           alt="IMAGE"
         />
 
