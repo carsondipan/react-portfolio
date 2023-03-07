@@ -9,41 +9,45 @@ function Info() {
   };
 
   return (
-    <Carousel activeIndex={index} onSelect={handleSelect}>
+    <Carousel className='carousel' activeIndex={index} onSelect={handleSelect}>
+
+
       <Carousel.Item>
         <img
-          className="d-block w-100"
-          src="C:\Users\Carson\Bootcamp\challenges\react-portfolio\vite-project\src\assets\Portfolio photos\IMG_2117.JPG"
-          alt="Image"
+          className="d-inline w-75"
+          src="https://via.placeholder.com/150"
+          alt="Projects"
         />
         <Carousel.Caption>
           <h3>Projects</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <p>Click to see Projects that I've completed!</p>
         </Carousel.Caption>
       </Carousel.Item>
+
+
       <Carousel.Item>
         <img
-          className="d-block w-100"
-          src="C:\Users\Carson\Bootcamp\challenges\react-portfolio\vite-project\src\assets\Portfolio photos\IMG_2117.JPG"
-          alt="IMage"
+          className="d-inline w-75"
+          src="C:\Users\Carson\Bootcamp\challenges\react-portfolio\vite-project\src\assets\img3.png"
+          alt="About"
         />
-
         <Carousel.Caption>
           <h3>About</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p>Click to learn more about me!</p>
         </Carousel.Caption>
       </Carousel.Item>
+
+
       <Carousel.Item>
         <img
-          className="d-block w-100"
-          src="C:\Users\Carson\Bootcamp\challenges\react-portfolio\vite-project\src\assets\Portfolio photos\IMG_2117.JPG"
-          alt="IMAGE"
+          className="d-inline w-75"
+          src="https://via.placeholder.com/150"
+          alt="Resume"
         />
-
         <Carousel.Caption>
-          <h3>Contact</h3>
+          <h3>Resume</h3>
           <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+            Click here to view my personal Resume.
           </p>
         </Carousel.Caption>
       </Carousel.Item>
