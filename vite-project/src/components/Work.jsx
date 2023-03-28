@@ -25,13 +25,13 @@ const Work = () => {
                         {/* Hover effects */}
                         <div className='opacity-0 group-hover:opacity-100'>
                             <span className='text-2xl font bold text-[white] tracking-wider'>
-                                React JS Application
+                                PetBook (Tailwind, React.JS, MongoDB)
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href="/">
+                                <a href="https://stormy-tundra-00611.herokuapp.com/">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 text-gray-dark font-bold text-lg'
                                     >
-                                        Demo
+                                        Deployed App
                                     </button>
                                 </a>
                                 <a href="https://github.com/carsondipan/pet-social-app">
@@ -49,17 +49,17 @@ const Work = () => {
 
                         {/* Hover effects */}
                         <div className='opacity-0 group-hover:opacity-100'>
-                            <span className='text-2xl font bold text-[white] tracking-wider justify-center'>
-                                JavaScript, HTML, CSS Application
+                            <span className='text-2xl font bold text-[white] tracking-wider text-center'>
+                                BlockBuster 2.0 (JavaScript, HTML, CSS)
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href="/">
+                                <a href="https://carsondipan.github.io/movie-search-project/">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 text-gray-dark font-bold text-lg'
                                     >
-                                        Demo
+                                        Deployed App
                                     </button>
                                 </a>
-                                <a href="https://github.com/carsondipan/pet-social-app">
+                                <a href="https://github.com/carsondipan/movie-search-project">
                                     <button
                                         className='text-center rounded-lg px-4 py-3 m-2 text-gray-dark font-bold text-lg'>Code
                                     </button>
