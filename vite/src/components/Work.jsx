@@ -16,15 +16,13 @@ const Work = () => {
 
 
 
-                <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
-
+                <div className='items-center grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
                     <div
                         style={{ backgroundImage: `url(${PetbookImg})` }} className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div "
                     >
-
                         {/* Hover effects */}
                         <div className='opacity-0 group-hover:opacity-100'>
-                            <span className='text-2xl font bold text-[white] tracking-wider'>
+                            <span className='text-2xl text-centerp-4 font bold text-[white] tracking-wider'>
                                 PetBook (Tailwind, React.JS, MongoDB)
                             </span>
                             <div className='pt-8 text-center'>
@@ -69,7 +67,7 @@ const Work = () => {
                         </div>
                     </div>
                     <div
-                        style={{ backgroundImage: `url(${PetbookImg})` }} className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div "
+                        // style={{ backgroundImage: `url(${PetbookImg})` }} className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div "
                     >
 
                         {/* Hover effects */}
@@ -94,7 +92,7 @@ const Work = () => {
                         </div>
                     </div>
                     <div
-                        style={{ backgroundImage: `url(${BlockbusterImg})` }} className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div "
+                        // style={{ backgroundImage: `url(${BlockbusterImg})` }} className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div "
                     >
 
                         {/* Hover effects */}
@@ -119,7 +117,7 @@ const Work = () => {
                         </div>
                     </div>
                     <div
-                        style={{ backgroundImage: `url(${PetbookImg})` }} className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div "
+                        // style={{ backgroundImage: `url(${PetbookImg})` }} className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div "
                     >
 
                         {/* Hover effects */}
@@ -144,12 +142,12 @@ const Work = () => {
                         </div>
                     </div>
                     <div
-                        style={{ backgroundImage: `url(${BlockbusterImg})` }} className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div "
+                        // style={{ backgroundImage: `url(${BlockbusterImg})` }} className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div "
                     >
 
                         {/* Hover effects */}
                         <div className='opacity-0 group-hover:opacity-100'>
-                            <span className='text-2xl font bold text-[white] tracking-wider justify-center'>
+                            {/* <span className='text-2xl font bold text-[white] tracking-wider justify-center'>
                                 JavaScript, HTML, CSS Application
                             </span>
                             <div className='pt-8 text-center'>
@@ -165,7 +163,7 @@ const Work = () => {
                                     </button>
                                 </a>
 
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                     
