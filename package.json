@@ -1,6 +1,8 @@
 {
   "name": "vite-project",
   "private": true,
+  "main": "main.jsx",
+  "engines": {},
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -10,6 +12,7 @@
     "start": "npm run dev"
   },
   "dependencies": {
+    "eject": "^0.0.4",
     "mdb-react-ui-kit": "^5.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
