@@ -2,7 +2,9 @@
   "name": "vite-project",
   "private": true,
   "main": "main.jsx",
-  "engines": {},
+  "engines": {
+    "node": "12.11.1"
+  },
   "version": "0.0.0",
   "type": "module",
   "scripts": {
