@@ -21,8 +21,8 @@ const Work = () => {
                         style={{ backgroundImage: `url(${PetbookImg})` }} className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div "
                     >
                         {/* Hover effects */}
-                        <div className='opacity-0 group-hover:opacity-100'>
-                            <span className='text-2xl text-centerp-4 font bold text-[white] tracking-wider'>
+                        <div className='text-center opacity-0 group-hover:opacity-100'>
+                            <span className='text-2xl text-center p-4 font bold text-[white] tracking-wider'>
                                 PetBook (Tailwind, React.JS, MongoDB)
                             </span>
                             <div className='pt-8 text-center'>
@@ -46,7 +46,7 @@ const Work = () => {
                     >
 
                         {/* Hover effects */}
-                        <div className='opacity-0 group-hover:opacity-100'>
+                        <div className='text-center opacity-0 group-hover:opacity-100'>
                             <span className='text-2xl font bold text-[white] tracking-wider text-center'>
                                 BlockBuster 2.0 (JavaScript, HTML, CSS)
                             </span>
