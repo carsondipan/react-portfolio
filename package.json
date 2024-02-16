@@ -11,7 +11,7 @@
     "dev": "vite",
     "build": "vite dist",
     "preview": "vite preview",
-    "start": "npm run dev"
+    "start --omit=dev": "npm run dev"
   },
   "dependencies": {
     "eject": "^0.0.4",
