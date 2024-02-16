@@ -1,6 +1,6 @@
 {
-  "name": "vite-project",
-  "private": true,
+  "name": "react-portfolio",
+  "private": false,
   "main": "main.jsx",
   "engines": {
     "node": "12.11.1"
